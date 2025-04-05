@@ -4,7 +4,7 @@ const spotifyApi = new SpotifyWebApi();
 
 // Your Spotify App credentials
 const CLIENT_ID = '80e3d5e35cfd400ea990cf146faf1791';
-const REDIRECT_URI = 'musicquiz-seven.vercel.app/callback';
+const REDIRECT_URI = 'https://musicquiz-seven.vercel.app/callback';
 const SCOPES = [
   'user-read-private',
   'user-read-email',
