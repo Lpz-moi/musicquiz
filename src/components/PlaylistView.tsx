@@ -46,7 +46,7 @@ function PlaylistView({ mood, time, preferences }: PlaylistViewProps) {
 
   const handleSpotifyConnect = () => {
     const clientId = '80e3d5e35cfd400ea990cf146faf1791';
-    const redirectUri = encodeURIComponent('http://localhost:5173/callback');
+    const redirectUri = encodeURIComponent('musicquiz-seven.vercel.app/callback');
     const scopes = encodeURIComponent(['user-read-private', 'playlist-modify-public', 'user-top-read'].join(' '));
     const state = encodeURIComponent(JSON.stringify({ mood, time, preferences }));
     
